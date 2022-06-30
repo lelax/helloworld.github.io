@@ -1,29 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama appversion="6.1.15" apprev="18116" id="node1">
-  <input levelbiashidpi="1.000" width="1533" levelbias="0.400" height="1533" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" overlap="1" levelingpitch="0">
-    <level preload="0" width="1533" height="1533" predecode="0"/>
-    <level preload="0" width="766" height="766" predecode="0"/>
-    <level preload="1" width="383" height="383" predecode="1"/>
-    <preview color="0x808080" strip="1"/>
-  </input>
-  <view pannorth="0" fovmode="0">
-    <start projection="4" tilt="0" pan="0" fov="70"/>
-    <flyin projection="9" tilt="-90" pan="0" fov="170"/>
-    <min fovpixel="2" tilt="-29.7758" pan="-135"/>
-    <max fovstereographic="270" tilt="29.7758" fovfisheye="360" pan="135" fov="120"/>
-  </view>
-  <userdata source="" author="" datetime="" info="" comment="" nodeid="node1" latitude="" longitude="" title="" copyright="" tags="images" heading="0" customnodeid="" description=""/>
-  <hotspots wordwrap="1" width="180" height="20">
-    <label backgroundalpha="1" wordwrap="1" width="180" border="1" borderradius="1" height="20" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" background="1"/>
-    <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
-    <hotspot skinid="ht_image" url="images/Pano_2_view.jpg" tilt="1.39" target="_parent" title="come here" pan="-318.45" id="Point01" description=""/>
-  </hotspots>
-  <media>
-    <image stretch="1.000" width="605" clickmode="4" handcursor="0" rotz="0.000" height="455" tilt="2.760" roty="0.000" pan="-246.300" rotx="0.000" id="Element01" fov="13.940">
-      <source url="media/01_zoom.jpg"/>
-    </image>
-  </media>
-  <transition zoomafteroutfov="20" zoomin="0" zoomoutpause="1" blendtime="1" softedge="0" type="crossdissolve" zoomspeed="2" zoomout="0" enabled="1" zoomafterinfov="90" blendcolor="0x000000" zoomfov="20"/>
-  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-  <control sensitivity="8" invertcontrol="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" rubberband="0" simulatemass="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1"/>
-</panorama>
+<tour start="node1" apprev="18116" appversion="6.1.15">
+  <panorama id="node1">
+    <input height="1533" overlap="1" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1533" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelbias="0.400">
+      <level height="1533" preload="0" width="1533" predecode="0"/>
+      <level height="766" preload="0" width="766" predecode="0"/>
+      <level height="383" preload="1" width="383" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-29.7758" fovpixel="2" pan="-135"/>
+      <max tilt="29.7758" fovfisheye="360" fov="120" pan="135" fovstereographic="270"/>
+    </view>
+    <userdata latitude="" comment="" author="" description="" longitude="" nodeid="node1" datetime="" tags="images" customnodeid="" copyright="" title="" source="" info="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label borderradius="1" height="20" enabled="1" textcolor="0x000000" wordwrap="1" border="1" textalpha="1" width="180" background="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" backgroundalpha="1"/>
+      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
+      <hotspot skinid="ht_node" url="{node2}" id="Point01" tilt="4.04" description="" pan="-161.35" title="ExploreAnotherRoom" target=""/>
+      <hotspot skinid="ht_node" url="{node2}" id="Point02" tilt="3.25" description="" pan="-120.36" title="Explore Another Room" target=""/>
+    </hotspots>
+    <media>
+      <image clickmode="4" height="422" id="Element01" tilt="-5.440" stretch="1.000" handcursor="0" rotx="0.000" fov="12.270" width="653" pan="-42.270" rotz="0.000" roty="-1.000">
+        <source url="media/obj_3.jpg"/>
+      </image>
+      <image clickmode="4" height="807" id="Element02" tilt="-3.860" stretch="1.000" handcursor="0" rotx="0.000" fov="3.900" width="605" pan="-76.900" rotz="0.000" roty="0.000">
+        <source url="media/obj_2.jpg"/>
+      </image>
+      <image clickmode="4" height="807" id="Element03" tilt="-2.510" stretch="1.000" handcursor="0" rotx="0.000" fov="5.910" width="605" pan="-58.120" rotz="0.000" roty="0.000">
+        <source url="media/obj_01.jpg"/>
+      </image>
+    </media>
+    <transition zoomin="0" blendcolor="0x000000" zoomafteroutfov="20" enabled="1" type="crossdissolve" softedge="0" blendtime="1" zoomafterinfov="90" zoomout="0" zoomfov="20" zoomoutpause="1" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" dblclickfullscreen="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" invertwheel="0" rubberband="0" hideabout="0" contextvr="1" sensitivity="8" lockedwheel="0" contextprojections="0" lockedkeyboardzoom="0" lockedkeyboard="0" invertcontrol="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input height="1533" overlap="1" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1533" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelbias="0.400">
+      <level height="1533" preload="0" width="1533" predecode="0"/>
+      <level height="766" preload="0" width="766" predecode="0"/>
+      <level height="383" preload="1" width="383" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-29.7758" fovpixel="2" pan="-135"/>
+      <max tilt="29.7758" fovfisheye="360" fov="120" pan="135" fovstereographic="270"/>
+    </view>
+    <userdata latitude="" comment="" author="" description="" longitude="" nodeid="node2" datetime="" tags="images" customnodeid="" copyright="" title="" source="" info="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label borderradius="1" height="20" enabled="1" textcolor="0x000000" wordwrap="1" border="1" textalpha="1" width="180" background="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" backgroundalpha="1"/>
+      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
+      <hotspot skinid="ht_node" url="{node3}" id="Point01" tilt="2.97" description="" pan="-316.38" title="Move outside to see to city landscape" target=""/>
+      <hotspot skinid="ht_node" url="{node1}" customimagewidth="42" distance3D="240.031" id="Point02" tilt="-24.46" description="" use3D="0" customimageheight="42" fov="10" pan="-327.79" title="Go Back downstairs" customimage="media/back.png" target=""/>
+      <hotspot skinid="ht_info" url="" customimagewidth="46" distance3D="262.891" id="Point03" tilt="-7.99" description="Materiale: ottone e ferro con 1 cannocchiale&#xa;Dimensioni: reggio 97 cm " use3D="0" customimageheight="46" fov="10" pan="-253.19" title="Quadrante mobile di P. Mégnié‐Parigi , 1779" customimage="media/Info.png" target=""/>
+      <hotspot skinid="ht_info" url="" customimagewidth="52" distance3D="297.181" id="Point04" tilt="-0.09" description="Materiale: strumento in ottone, specchi in bronzo, tavolo in noce&#xa;Dimensioni: lunghezza del tubo c. 100 cm, diametro 13 cm " use3D="0" customimageheight="52" fov="10" pan="-349.67" title="Telescopio gregoriano di Dollond ‐ Londra, 1787" customimage="media/Info.png" target=""/>
+      <hotspot skinid="ht_info" url="" customimagewidth="58" distance3D="331.472" id="Point05" tilt="2.51" description="Materiale: strumento in ottone con tavolo in noce triangolare a tre piedi con piano in marmo. &#xa;Dimensioni: lunghezza del tubo 112 cm, diametro 9 cm&#xa;" use3D="0" customimageheight="58" fov="10" pan="-41.09" title="Telescopio parallattico da 3 piedi con Obbiettivo acromatico di Dolland&#xa;Londra 1787" customimage="media/Info.png" target=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" zoomafteroutfov="20" enabled="1" type="crossdissolve" softedge="0" blendtime="1" zoomafterinfov="90" zoomout="0" zoomfov="20" zoomoutpause="1" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" dblclickfullscreen="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" invertwheel="0" rubberband="0" hideabout="0" contextvr="1" sensitivity="8" lockedwheel="0" contextprojections="0" lockedkeyboardzoom="0" lockedkeyboard="0" invertcontrol="1"/>
+  </panorama>
+  <panorama id="node3">
+    <input height="845" overlap="1" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="845" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelbias="0.400">
+      <level height="845" preload="0" width="845" predecode="0"/>
+      <level height="422" preload="1" width="422" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-31.9737" fovpixel="2" pan="-180"/>
+      <max tilt="31.9737" fovfisheye="360" fov="120" pan="180" fovstereographic="270"/>
+    </view>
+    <userdata latitude="" comment="" author="" description="" longitude="" nodeid="node3" datetime="" tags="images" customnodeid="" copyright="" title="" source="" info="" heading="0"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label borderradius="1" height="20" enabled="1" textcolor="0x000000" wordwrap="1" border="1" textalpha="1" width="180" background="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" backgroundalpha="1"/>
+      <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
+      <hotspot skinid="ht_node" url="{node2}" customimagewidth="50" distance3D="285.751" id="Point01" tilt="-21.83" description="" use3D="0" customimageheight="50" fov="10" pan="-31.13" title="Go back inside" customimage="media/back.png" target=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" zoomafteroutfov="20" enabled="1" type="crossdissolve" softedge="0" blendtime="1" zoomafterinfov="90" zoomout="0" zoomfov="20" zoomoutpause="1" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control speedwheel="1" dblclickfullscreen="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" invertwheel="0" rubberband="0" hideabout="0" contextvr="1" sensitivity="8" lockedwheel="0" contextprojections="0" lockedkeyboardzoom="0" lockedkeyboard="0" invertcontrol="1"/>
+  </panorama>
+  <masternode>
+    <userdata latitude="" comment="" author="" description="" longitude="" nodeid="master" datetime="" tags="" customnodeid="" copyright="" title="" source="" info="" heading="0"/>
+  </masternode>
+</tour>
